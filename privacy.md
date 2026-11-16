@@ -1,6 +1,6 @@
 # Formula Trainer Privacy Policy
 
-_Last updated: November 15, 2026_
+_Last updated: November 16, 2026_
 
 This policy applies to the Formula Trainer app ("the app"), a reflex training game provided by Senan Batu Çobanoğlu. It explains what information is handled when you use it.
 
@@ -8,7 +8,7 @@ This policy applies to the Formula Trainer app ("the app"), a reflex training ga
 - The app has no accounts and no sign-in. We do not ask for your name, email or phone number.
 - Your scores, records, medals, streak and settings are stored **only on your device**. We do not run a server and never receive them.
 - The app shows ads through **Google AdMob**. Google may collect device and usage information to show and measure ads, as described below.
-- The optional "No Ads" purchase is handled entirely by **Apple**. We never see your payment details.
+- The optional "No Ads" purchase is paid through **Apple**. We never see your payment details. **RevenueCat** checks the purchase so it works on your device.
 
 ## Information stored on your device
 The app saves the following on your device so it works between sessions:
@@ -35,14 +35,16 @@ Google's use of this information is governed by Google's own policies:
 If you are in the European Economic Area, the United Kingdom or Switzerland, you will be asked for consent before ads use your information where the law requires it.
 
 ## Purchases
-The "No Ads" purchase is processed by Apple through the App Store. Apple handles your payment details under Apple's privacy policy (https://www.apple.com/legal/privacy/). The app only receives confirmation that you own the purchase.
+The "No Ads" purchase is processed by Apple through the App Store. Apple handles your payment details under Apple's privacy policy (https://www.apple.com/legal/privacy/).
+
+To check and restore the purchase, the app uses **RevenueCat** (RevenueCat, Inc.), a purchase-management service. RevenueCat receives a random, anonymous app user ID created on your device, your App Store purchase receipt and history for this app, and basic device information (such as operating system and app version). It does not receive your name, email or payment details, and we do not link this information to your identity. We use it only to make the purchase work and to see purchase totals. RevenueCat's privacy policy: https://www.revenuecat.com/privacy
 
 ## Sharing results
 If you tap "Share" on a result, the app creates an image of your result on your device and opens the system share sheet. Nothing is sent anywhere unless you choose where to share it.
 
 ## What we do not do
 - We do not collect your name, email, contacts, photos, microphone or precise location.
-- We do not use analytics or crash-reporting services of our own.
+- We do not use analytics or crash-reporting services of our own (RevenueCat only handles the "No Ads" purchase, as described above).
 - We do not sell your personal information.
 
 ## Children
